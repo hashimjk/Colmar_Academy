@@ -4,7 +4,7 @@
 }
 body{
     font-family: sans-serif;
-    background-color: gainsboro;
+    background-color: white;
     opacity: 0.8;
  
 }
@@ -228,4 +228,64 @@ padding-bottom: 18px;
     padding-bottom: 32px;
     align-content: center;
     text-align: center;
+}
+/*Heading  Thesis*/
+
+h1{
+    padding-top: 32px;
+    text-align: center;
+    padding-bottom: 32px;
+}
+
+.content{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    background-size: cover; 
+}
+.vid{
+    width: 60%;
+
+}
+.vid video{
+    padding-left: 24px;
+    width: 100%;
+    
+}
+.content .card{
+    border: none;
+    margin-left: 60px;
+}
+.content h2{
+    width: 290px;
+}
+.card img{
+    width: 180px;
+}
+.footer{
+    margin-left: 24px;
+    margin-top: 24px;
+    background-color: white;
+}
+
+.footer p{
+    margin-top: 8px;
+    width: 900px;
+    
+}
+hr{
+    margin-top: 32px;
+    margin-bottom: 16px;
+}
+.terms{
+    display: flex;
+    justify-content: end;
+    align-content: space-between;
+}
+.terms a{
+    padding-right: 10px;
+    text-decoration: none;
+    text-align: end;
+    align-items: flex-end;
 }
