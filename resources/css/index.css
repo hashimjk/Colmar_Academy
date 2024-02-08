@@ -4,6 +4,8 @@
 }
 body{
     font-family: sans-serif;
+    background-color: gainsboro;
+    opacity: 0.8;
  
 }
 /*Navigation bar */
@@ -103,6 +105,7 @@ display: flex;
  .left{
     width: 60%;
     padding-right: 50px;
+    background-color: white;
  }
  .left img{
  align-content: center;
@@ -175,3 +178,54 @@ padding-bottom: 18px;
     color: gray;
  }
 
+/*Start learning page*/
+
+
+.startlearning{
+    display: flex;
+    
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color:gainsboro;
+   
+}
+.startlearning h1{
+
+    
+    padding-top: 32px;
+    
+}
+.small-card img{
+    height: auto;
+    width: 400px;
+}
+.small-card h3{
+    padding-top: 16px;
+    padding-left: 16px;
+}
+.small-card{
+    height: 350px;
+  width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    background-color: white;
+  
+
+    border: 1px solid gray;
+    margin-left:32px;
+    margin-top: 32px;
+}
+.small-card span{
+    padding-top: 8px;
+    padding-left: 16px;
+    width: 300px;
+}
+#learn{
+    padding-top: 32px;
+    padding-bottom: 32px;
+    align-content: center;
+    text-align: center;
+}
